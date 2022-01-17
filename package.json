@@ -1,0 +1,25 @@
+{
+  "name": "express-auth",
+  "version": "1.0.0",
+  "description": "A customizable express authentication module you can directly use in your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishrakeshav/express-auth.git"
+  },
+  "author": "mishrakeshav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mishrakeshav/express-auth/issues"
+  },
+  "homepage": "https://github.com/mishrakeshav/express-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
