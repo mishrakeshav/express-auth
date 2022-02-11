@@ -1,25 +1,28 @@
 {
-  "name": "express-auth",
+  "name": "server",
   "version": "1.0.0",
-  "description": "A customizable express authentication module you can directly use in your project.",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mishrakeshav/express-auth.git"
-  },
-  "author": "mishrakeshav",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mishrakeshav/express-auth/issues"
-  },
-  "homepage": "https://github.com/mishrakeshav/express-auth#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "dotenv": "^14.1.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.1.6"
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "pino": "^7.6.5",
+    "pino-pretty": "^7.5.1",
+    "response-time": "^2.3.2",
+    "zod": "^3.11.6"
   }
 }
